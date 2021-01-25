@@ -1,0 +1,30 @@
+{
+    "data_files_directory": [
+        "C:\\SourceCodeRepository\\ETL_Doctor\\Logfiles\\Final",
+        "C:\\SourceCodeRepository\\ETL_Doctor\\Logfiles\\analysis\\"
+    ],
+    "report_log": "C:\\Sourcecode_repositry\\ETL_Doctor\\report.log",
+    
+    "Search_parameters": [
+        {
+            "start_string": ": Lookup Transformation",
+            "end_string": "Finished transformations"
+        },
+        {
+            "start_string": "Start loading table",
+            "end_string": "LOAD SUMMARY",
+            "fields_to_extract": [
+                "Target:",
+                "Updated rows"
+            ]
+        },
+        {
+            "start_string": "Start loading table",
+            "end_string": ": Load complete time",
+            "fields_to_extract": [
+                "Target:",
+                "Updated rows"
+            ]
+        }
+    ]
+}
